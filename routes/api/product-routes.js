@@ -33,18 +33,6 @@ router.get('/:id', (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
-Product.create({
-  product_name: req.body.product_name,
-  price:req.body.price,
-  stock:req.body.stock,
-  tagIds:req.body.tagIds
-}).then((newproduct) =>{
-
-  res.json(newproduct);
-
-}).catch((err) =>{
-   res.json(err);
-});
 
   /* req.body should look like this...
     {
@@ -74,7 +62,7 @@ Product.create({
       console.log(err);
       res.status(400).json(err);
     });
-});
+  });
 
 // update product
 router.put('/:id', (req, res) => {
