@@ -23,6 +23,9 @@ node index.js
 ## Usage
 
 Free to use under the MIT license.
+![Screenshot (154)](https://user-images.githubusercontent.com/80432031/160141335-9caf10c1-6a25-4305-b8e0-de177bbfe6f3.png)
+![Screenshot (149)](https://user-images.githubusercontent.com/80432031/160141187-e6e6930e-398f-409d-89dd-bf7540c9131c.png)
+
 
 ## Licenses
 
